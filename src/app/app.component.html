@@ -1,0 +1,48 @@
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 10vh 80vh 10vh;
+        grid-template-areas: 
+            "header header  header"
+            "menu   main    aside"
+            "footer footer  footer";
+    }
+
+    header{
+        grid-area: header;
+        background-color: gold;
+    }
+
+    menu{
+        grid-area:menu;
+;
+        background-color: deepskyblue;
+    }
+
+    main{
+        grid-area: main;
+        background-color: deeppink;
+    }
+
+    aside{
+        grid-area: aside;
+        background-color: lime;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: crimson;
+    }
+
+
+
+</style>
+
+
+<div class="container">
+    <header></header>
+    <main><app-parent></app-parent></main>
+    <aside></aside>
+    <footer></footer>
+</div>
