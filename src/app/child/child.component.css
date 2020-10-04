@@ -1,0 +1,19 @@
+#content > p > span{
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+}

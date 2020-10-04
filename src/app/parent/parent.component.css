@@ -1,0 +1,33 @@
+#parent{
+    background-color: deepskyblue;
+    width: 800px;
+    height: 500px; 
+    margin: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#parent > #child {
+    background-color: greenyellow;
+    height: 300px; 
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+#parent > span{
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#parent > h1 {
+    margin-bottom: 20px;
+}
+
